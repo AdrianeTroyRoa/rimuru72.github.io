@@ -2,81 +2,42 @@
 <html lang = "en-US">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Venn72</title>
+        <title>L0M1S</title>
         <style>
             body {
-                margin: 0;
-                font-family: Arial, Helvetica, sans-serif;
+                background-image: url('hans-isaacson-sbg3FuIRQcs-unsplash.jpg');
+                background-size: cover;
             }
-            #head, .no {
+            form {
+                border: 1px solid black;
+                width: 40%;
+                margin: auto;
+                margin-top: 10%;
                 text-align: center;
-                border: 1px transparent
+                background-color: whitesmoke;
+                opacity: 0.3;
             }
-            #head {
-                padding: 23px;
-                margin-top: 70px;
+            form:hover {
+                opacity: 0.7;
             }
-            .no {
-                padding: 70px;
+            #user,#pass {
                 text-align: center;
-                font-size: larger;
+                padding: 5%;
             }
-            #main {
-                border: 2px solid rgb(107, 32, 32);
-                background-color: brown;
-                padding: 3px;
-                text-align: justify;
-                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-                font-size: 36pt;
-                position: fixed;
-                top: 0;
-                width: 100%;
+            #user {
+                margin-top: 30%;
             }
-            #container {
-                background-color: brown;
+            #submit {
+                margin-bottom: 30%;
+                padding: 2%;
             }
         </style>
     </head>
     <body>
-        <div id = "main">Blogz</div>
-        <h1 id = "head">Welcome to this site!</h1>
-        <div id = "container">
-            <div class = "no">
-                Unfortunately, this site does not have an interactive content yet. Stay tuned.
-            </div>
-            <div class = "no">
-                Unfortunately, this site does not have an interactive content yet. Stay tuned.
-            </div>
-            <div class = "no">
-                Unfortunately, this site does not have an interactive content yet. Stay tuned.
-            </div>
-            <div class = "no">
-                Unfortunately, this site does not have an interactive content yet. Stay tuned.
-            </div>
-            <div class = "no">
-                Unfortunately, this site does not have an interactive content yet. Stay tuned.
-            </div>
-            <div class = "no">
-                Unfortunately, this site does not have an interactive content yet. Stay tuned.
-            </div>
-            <div class = "no">
-                Unfortunately, this site does not have an interactive content yet. Stay tuned.
-            </div>
-            <div class = "no">
-                Unfortunately, this site does not have an interactive content yet. Stay tuned.
-            </div>
-            <div class = "no">
-                Unfortunately, this site does not have an interactive content yet. Stay tuned.
-            </div>
-            <div class = "no">
-                Unfortunately, this site does not have an interactive content yet. Stay tuned.
-            </div>
-            <div class = "no">
-                Unfortunately, this site does not have an interactive content yet. Stay tuned.
-            </div>
-            <div class = "no">
-                Unfortunately, this site does not have an interactive content yet. Stay tuned.
-            </div>
-        </div>
+        <form>
+            <input id="user" type="text" placeholder="Username" name="username"><br>
+            <input id="pass" type="password" placeholder="Password" name="password"><br><br><br>
+            <input id="submit" type="submit">
+        </form>
     </body>
 </html>
