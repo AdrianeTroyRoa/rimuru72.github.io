@@ -10,16 +10,20 @@
             }
             form {
                 border: 1px solid black;
+                border-collapse: separate;
                 width: 40%;
                 margin: auto;
                 margin-top: 5%;
                 margin-bottom: 5%;
                 text-align: center;
                 background-color: whitesmoke;
-                opacity: 0.3;
+                opacity: 0.7;
             }
             form:hover {
-                opacity: 0.7;
+                opacity: 0.9;
+            }
+            #user, #pass, #submit {
+                border: 1px solid black;
             }
             #user,#pass {
                 text-align: center;
@@ -33,6 +37,13 @@
                 padding: 2%;
             }
         </style>
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+
+                document.querySelector('form').onsubmit = () => false;
+
+            })
+        </script>
     </head>
     <body>
         <form>
